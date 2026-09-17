@@ -15,25 +15,36 @@
 </head>
 
 <body>
+
+    <!--Navbar-->
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-           
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav nav-item">
                     <li class="nav-item">
-                        <a class="nav-link" href="#"> Home </a>
+                        <a class="nav-link" href="#home"> Home </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Skills</a>
+                        <a class="nav-link" href="#skills">Skills</a>
                     </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#">Projects</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#learning">Learning</a>
                     </li>
 
                     <li class="nav-item">
@@ -41,27 +52,40 @@
                     </li>
                 </ul>
             </div>
-             <button id="darktheme" type="submit" >Light Theme <i class="fa-solid fa-sun"></i></button>
+            <button id="darktheme" type="submit">Light Theme <i class="fa-solid fa-sun"></i></button>
 
         </div>
     </nav>
 
-    <section >
-       <div class="back">
-        <div class="head1">
-            <h1>Hi, I'm <span>ASHNA FATIMA</span></h1>
-            <h2> <span>Front-End</span> Web Developer</h2>
-            <p>A passionate web developer creating beautiful Functional websites.</p>
-            <i class="fa-brands fa-github"></i>
-            <i class="fa-brands fa-linkedin-in"></i>
-            <i class="fa-brands fa-instagram"></i>
+    <!--Hero Section-->
+
+    <section>
+        <div class="back">
+            <div class="head1">
+                <h1>Hi, I'm <span>ASHNA FATIMA</span></h1>
+                <h2> <span>Front-End</span> Web Developer</h2>
+                <p>A passionate web developer creating beautiful Functional websites.</p>
+                <div class="h-button">
+                    <a href="#projects" class="h-btn">View Projects</a>
+
+                    <a href="#contact" class="s-btn">Contact Me</a>
+                </div>
+
+                <div class="icons">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+
+            </div>
+            <div class="image">
+                <img src="images/img1.png" alt="" class="p-image">
+            </div>
         </div>
-        <div class="image">
-            <img src="images/img1.png" alt="">
-        </div>
-       </div>
-       
+
     </section>
+
+    <!--About-->
 
     <section class="about" id="about">
         <div class="head2">
@@ -71,55 +95,123 @@
                 and building projects to improve my web development skills. My goal is to become a skilled and Creative
                 Web developer.</p>
         </div>
+
+        <div class="a-cards">
+            <div class="a-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Learning and building websites using modern web technologies</p>
+            </div>
+
+            <div class="a-box">
+                <i class="fa-regular fa-lightbulb"></i>
+                <h3>Creative Ideas</h3>
+                <p>I enjoy creating clean and attractive website designs.</p>
+            </div>
+
+            <div class="a-box">
+                <i class="fa-solid fa-book-open"></i>
+                <h3>Continuous Learning</h3>
+                <p>Always learning new concepts and improving my coding skills.</p>
+            </div>
+
+        </div>
     </section>
+
+    <!--My Skills-->
 
 
     <section id="skills">
-         <h1 class="my">My Skills</h1>
-            <div id="skil">
-                <div class="card" style="width: 14rem;" id="card1">
-  <img src="images/Html.png " class="card-img-top" alt="...">
-  <div class="card-body">
-    <h1 class="card-text">HTML</h1>
-  </div>
-</div>
+        <h1 class="my">My Skills</h1>
+        <div id="skil">
+
+            <div class="s-card">
+                <img src="images/Html.png " alt="...">
+                <h2>HTML</h2>
+                <div class="progress">
+                    <div class="p-bar h-bar">90%</div>
+                </div>
+            </div>
 
 
 
-
-             <div class="card" style="width: 14rem;" id="card1">
-  <img src="images/css.png " class="card-img-top" alt="...">
-  <div class="card-body">
-    <h1 class="card-text">CSS</h1>
-  </div>
-</div>
-
-
+            <div class="s-card">
+                <img src="images/css.png " alt="...">
+                <h2>CSS</h2>
+                <div class="progress">
+                    <div class="p-bar c-bar">90%</div>
+                </div>
+            </div>
 
 
-
-             <div class="card" style="width: 14rem;"  id="card1">
-  <img src="images/script.png" class="card-img-top" alt="..."  > 
-  <div class="card-body">
-    <h2 class="card-text">JAVASCRIPT</h2>
-  </div>
-</div>
-         </div>
-
+            <div class="s-card">
+                <img src="images/script.png " alt="...">
+                <h2>JAVASCRIPT</h2>
+                <div class="progress">
+                    <div class="p-bar j-bar">70%</div>
+                </div>
+            </div>
+        </div>
     </section>
+
+
+    <section class="services" id="services">
+        <h1>My Services</h1>
+        <p class="s-text">Here are some of the things I can create while learning and improving my development skills.
+        </p>
+        <div class="s-container">
+            <div class="service-card">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h3>Web Development</h3>
+
+                <p>I create simple and Functional websites using HTML, CSS, JAVASCRIPT.</p>
+            </div>
+
+
+
+            <div class="service-card">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <h3>Responsive Desgin</h3>
+
+                <p>I create websites that can work properly on desktop, tablet abd mobile screens.</p>
+            </div>
+
+
+
+
+            <div class="service-card">
+                <i class="fa-solid fa-palette"></i>
+                <h3>Web Desgin</h3>
+
+                <p>I enjoy creating clean, attractive and user-friendly website interfaces.</p>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+    <!--projects-->
+
 
 
 
     <section class="projects" id="projects">
         <h1>My Projects</h1>
-        <p class="projects-text"> 
+        <p class="projects-text">
             Here are some of the projects I have created while learning web development
         </p>
 
         <div class="container">
-            
-            <div class="p-card"> 
-                <img src="images/foam.jfif" alt="">
+
+
+
+            <div class="p-card">
+
+                <div class="project-image">
+                    <img src="images/foam.jfif" alt="">
+                </div>
 
                 <div class="info">
                     <h3>Registration Foam</h3>
@@ -130,19 +222,27 @@
                         <span>CSS</span>
                         <span>JAVASCRIPT</span>
                     </div>
+                    <div class="project-btn">
 
-                    <a href="#" class="p-btn">View Project</a>
+                        <a href=" https://fashna291-oss.github.io/ashna321/" class="p-btn">Live Demo</a>
+                        <a href="https://github.com/fashna291-oss/ashna321" class="git-btn"><i
+                                class="fa-brands fa-square-github"></i>
+                            GitHub</a>
+                    </div>
                 </div>
             </div>
 
 
 
-            <div class="p-card"> 
-                <img src="images/ecommrce.jfif" alt="">
+            <div class="p-card">
+
+                <div class="project-image">
+                    <img src="images/steak.jfif" alt="">
+                </div>
 
                 <div class="info">
-                    <h3>E-commerce Website</h3>
-                    <p>A simple e-commerce website made using HTML, CSS & JAVASCRIPT</p>
+                    <h3>Restaurant</h3>
+                    <p>A simple restaurant website made using HTML, CSS & JAVASCRIPT</p>
 
                     <div class="tags">
                         <span>HTML</span>
@@ -150,48 +250,135 @@
                         <span>JAVASCRIPT</span>
                     </div>
 
-                    <a href="#" class="p-btn">View Project</a>
+                    <div class="project-btn">
+
+                        <a href="https://fashna291-oss.github.io/ashna31/" class="p-btn">Live Demo
+                        </a>
+                        <a href="https://github.com/fashna291-oss/ashna31" class="git-btn"><i
+                                class="fa-brands fa-square-github"></i>GitHub</a>
+                    </div>
+
                 </div>
             </div>
 
 
 
-            <div class="p-card"> 
-                <img src="images/management.jfif" alt="">
+
+
+
+
+
+            <div class="p-card">
+
+
+                <div class="project-image">
+                    <img src="images/management.jfif" alt="">
+                </div>
 
                 <div class="info">
                     <h3>Digital Calculator</h3>
-                    <p>A simple Employee Management  made using HTML, CSS & JAVASCRIPT</p>
+                    <p>A simple Employee Management made using HTML, CSS & JAVASCRIPT</p>
 
                     <div class="tags">
                         <span>HTML</span>
                         <span>CSS</span>
                         <span>JAVASCRIPT</span>
                     </div>
+                    <div class="project-btn">
+                        <a href="https://fashna291-oss.github.io/Management/" class="p-btn">Live Demo</a>
+                        <a href="https://github.com/fashna291-oss/Management" class="git-btn"><i
+                                class="fa-brands fa-square-github"></i>GitHub</a>
+                    </div>
 
-                    <a href="#" class="p-btn">View Project</a>
+
                 </div>
             </div>
 
 
 
         </div>
+
+
     </section>
+
+    <!--Learning-->
+    <section class="learning" id="learning">
+        <h1>My Learning</h1>
+        <p class="s-text">I am continously learning and practicing new concepts to improve my web development skills.
+        </p>
+
+        <div class="l-container">
+            <div class="l-box">
+                <div class="l-icon">
+                    <i class="fa-brands fa-html5"></i>
+                </div>
+                <div>
+                    <h3>HTML & CSS</h3>
+                    <p>Learning website structure, layouts, styling and responsive desgin.</p>
+                </div>
+
+            </div>
+
+            <div class="l-box">
+                <div class="l-icon">
+                    <i class="fa-brands fa-js"></i>
+                </div>
+
+                <div>
+                    <h3>JavaScript</h3>
+                    <p>Learning variables, functions, arrays, DOM, events and JavaScript logic.</p>
+                </div>
+            </div>
+
+            <div class="l-box">
+                <div class="l-icon">
+                    <i class="fa-brands fa-bootstrap"></i>
+                </div>
+                <div>
+                    <h3>Bootstrap</h3>
+                    <p>Learning responsive layouts and ready-made components</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Contact-->
 
 
     <section class="contact" id="contact">
         <h1>Contact Me</h1>
+        <p class="s-text">Have a project or went to say hello? Send me a message.</p>
 
         <form id="form">
-            <input type="text"  placeholder="Your Name" id="name">
+            <input type="text" placeholder="Your Name" id="name">
 
             <input type="email" placeholder="Your Email" id="email">
 
             <textarea placeholder="Your Message" id="message"></textarea>
 
-            <button type="Submit">Send Message </button>
+            <button type="Submit">Send Message <i class="fa-solid fa-paper-plane"></i></button>
         </form>
     </section>
+
+    <footer>
+        <h2>ASHNA <span>FATIMA</span></h2>
+        <p>Begineer Front-End Web Developer</p>
+
+        <div class="f-icon">
+            <a href="https://github.com/fashna291-oss?tab=repositories"><i class="fa-brands fa-github"></i></a>
+
+            <a
+                href="https://www.linkedin.com/posts/ashna-fatima-a85aa5289_at-smit-saylani-mass-it-training-students-ugcPost-7440094608694353920-KP3b?utm_source=social_share_send&utm_medium=ios_app&rcm=ACoAAEYbWcUBAL2ZrPtFITU-s6ygR2rs_1-vaiA&utm_campaign=copy_link"><i
+                    class="fa-brands fa-linkedin-in"></i></a>
+
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+        </div>
+
+        <p class="right">© 2026 Ashna Fatima. All Rights Reseverd.</p>
+    </footer>
+
 
 
 
